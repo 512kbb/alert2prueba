@@ -1,0 +1,79 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.platforms {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.platform {
+    text-align: center;
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 10px;
+}
+
+.platform h4 {
+    margin: 0;
+
+}
+
+.platformPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.platformCard {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.platformCard img {
+    max-width: 300px;
+    height: auto;
+}
+
+.sensors {
+    width: 100%;
+
+}
+
